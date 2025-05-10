@@ -1,8 +1,14 @@
-
-```markdown
 # 🐶🐱 Dog vs Cat Image Classification using CNN
 
-This project uses a Convolutional Neural Network (CNN) to classify images of dogs and cats. It was developed as part of a learning exercise using the **Kaggle Dogs vs. Cats** dataset and is inspired by the Deeplizard CNN series.
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
+![TensorFlow/Keras](https://img.shields.io/badge/Framework-TensorFlow%2FKeras-blue)
+![CNN](https://img.shields.io/badge/Model-CNN-green)
+![Dataset](https://img.shields.io/badge/Dataset-Kaggle%20Dogs%20vs%20Cats-orange)
+![Image Classification](https://img.shields.io/badge/Task-Image%20Classification-yellowgreen)
+![Jupyter Notebook](https://img.shields.io/badge/Notebook-Jupyter-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+This project uses a **Convolutional Neural Network (CNN)** to classify images of dogs and cats. It was developed as part of a learning exercise using the **Kaggle Dogs vs. Cats** dataset and is inspired by the Deeplizard CNN series.
 
 ---
 
@@ -27,9 +33,9 @@ The dataset is sourced from the Kaggle competition:
 
 ## 📊 Results
 
-| Metric              | Accuracy |
-|---------------------|----------|
-| **Training Accuracy** | ~98%     |
+| Metric                  | Accuracy |
+|-------------------------|----------|
+| **Training Accuracy**   | ~98%     |
 | **Validation Accuracy** | ~83%     |
 
 *Early overfitting was addressed by implementing early stopping.*
@@ -52,31 +58,3 @@ The dataset is sourced from the Kaggle competition:
    ```bash
    git clone https://github.com/your-username/Pet_Classification_CNN.git
    cd Pet_Classification_CNN
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Launch the Jupyter Notebook and run all cells in:
-   ```
-   Pet_Classification_CNN.ipynb
-   ```
-
----
-
-## 📚 References
-
-- Deeplizard CNN Tutorial: [Watch on YouTube](https://deeplizard.com/learn/video/LhEMXbjGV_4)
-- Kaggle Dataset: [Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats/data)
-
----
-
-## 📌 Future Improvements
-
-- Add data augmentation to improve generalization
-- Use transfer learning with pre-trained models like VGG16 or ResNet
-- Explore hyperparameter tuning for better performance
-
----
